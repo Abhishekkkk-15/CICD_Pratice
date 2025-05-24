@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Route
 app.get('/', (req, res) => {    
-  res.send('Hello from Guys');
+  res.json({message:"Hey there"});
 });
 
 // Start server
