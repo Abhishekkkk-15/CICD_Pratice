@@ -5,7 +5,7 @@ const PORT = 4002;
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hey there" });
+  res.json({ message: "CI/CD pipeline" });
 });
 
 app.listen(PORT, "0.0.0.0", () => {
