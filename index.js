@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Route
 app.get('/', (req, res) => {    
-  res.send('Hello from abhishek jangid 332');
+  res.send('Hello from abhishek');
 });
 
 // Start server
